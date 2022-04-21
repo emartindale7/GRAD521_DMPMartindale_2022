@@ -1,4 +1,4 @@
-# Data descriptopn
+# Data description
 
 The research that I will be working on involves observing mice in their cages to see how they react in a familiar environment over the course of a study. 
 The mice will be observed using an electric field sensor and this data will be used to develop a []. 
@@ -18,7 +18,7 @@ The video dataset is estimated to be about 100 GB.
 The processed data is estimated to be about 3.5 GB. 
 The total size of the datasets is then estimated to be about 115 GB. 
 
-# Roles and rsponsibilities
+# Roles and responsibilities
 
 Everyone involved in data collection and processing is responsible for implementing the data management plan. 
 The PI for the lab is responsible for making sure that there is a data management plan and that people are following it. 
