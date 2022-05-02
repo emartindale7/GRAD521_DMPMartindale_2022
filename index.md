@@ -43,6 +43,20 @@ The cloud folders for any ongoing research are also owned by the lab PI so that 
 
 # Data standards and metadata
 
+Data for this project is organized using a file naming convention and file structure. 
+Electric field files and video files are collected and saved to project specific folders that are named for the experiment, the date, the cage, and the animals. 
+The individual files follow this same naming convention to ensure they are not misplaced and data is not lost. 
+When the data is to be manually analyzed, the raw files are loaded into a program and the labeled and processed output is saved as a new filetype and named with the same naming convention. 
+The raw and manually processed data can then be input into the software that is being developed for this project and the output will include the same name, but with a signifier appended to the end to denote at what stage of the automatic analysis the output files are from.
+
+Git version control is used to record the different iterations of software developed for this project. 
+A local git repository will be used while the software and analysis tools are still in development, but when the project is finished, this repository will be published along with the information collected. 
+This version control will also be used to record the documentation files that are written to explain the software analysis and describe the necessary metadata. 
+
+There is not currently a metadata standard being used for this project. 
+A current standard that would likely be applicable for this project is the [ISA-Tab](http://isatab.sourceforge.net/docs/ISA-TAB_release-candidate-1_v1.0_24nov08.pdf) standard. 
+This standard guides organization of file structure so that complex information from a specific assay or test can be related back to a study and that study can be related back to the larger investigation. 
+
 # Storage and security
 
 # Access and data sharing
