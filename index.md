@@ -1,8 +1,8 @@
 # Data description
 
 The research that I will be working on involves observing mice in their cages to see how they react in a familiar environment over the course of a study. 
-The mice will be observed using an electric field sensor and this data will be used to develop a []. 
-The specific research question this project will be answering is how well can a []. 
+The mice will be observed using an electric field sensor and this data will be used to develop a machine learning model that can automatically sort the data into different wake or sleep stages. 
+The specific research question this project will be answering is how well can a machine learning system predict the activity of mice. 
 
 For this research question, I will need to collect data from the electric field sensors and from a secondary source such as a video of the cages. 
 The video will be used to verify sleep/ wake states of the mice that are scored using the electric field data. 
