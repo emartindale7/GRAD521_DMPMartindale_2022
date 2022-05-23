@@ -61,4 +61,8 @@ This standard guides organization of file structure so that complex information 
 
 # Access and data sharing
 
+Data will be made publicly available when the associated work is published. The code to process and transform the data will be published along with the associated work. The data will be made publicly available by submitting it to a repository. The most appropriate data format to use would be the ISA-Tab format for biological sciences. The data will licensed under CC BY so that anyone can use the data as long as they give credit to the researchers that collected the data. 
+
 # Archiving and preservation
+
+The data itself will be preserved with the lab in an archive, as well as preserved in the public repository that it is submitted to. These preservation methods will need to retain the data for at least 5 years. Code for the project associated with the data will be submitted to GitHub, as well as having a local git repository stored in the lab's archive. This will also need to be stored for 5 years. The data repository and GitHub repository will both allow public access and access through request to the lab will be a secondary method of access to archive data and code. 
