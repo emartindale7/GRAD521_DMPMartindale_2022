@@ -61,7 +61,9 @@ This standard guides organization of file structure so that complex information 
 
 # Access and data sharing
 
-Data will be made publicly available when the associated work is published. The code to process and transform the data will be published along with the associated work. The data will be made publicly available by submitting it to a repository. The most appropriate data format to use would be the ISA-Tab format for biological sciences. The data will licensed under CC BY so that anyone can use the data as long as they give credit to the researchers that collected the data. 
+There are a few ways that data will be able to be accessed and will be shared. When the associated work is published, it will include some of the data in the supplemental information and will also give a link to a repository that holds the data. The publicly available data will be available in the ISA-Tab standard and will be licensed under CC BY so that anyone can use the data as long as they give credit to the researchers that collected the data. The code used in the published work to process and transform the data will then be published in a GitHub repository. 
+
+A lab contact email will also be available to request access to data and code directly from the lab in case the previous methods are not available. The lab data and code will be retained based on the archiving and preservation section of this plan.  
 
 # Archiving and preservation
 
