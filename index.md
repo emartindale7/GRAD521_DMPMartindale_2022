@@ -32,9 +32,9 @@ The data for this research project is stored and backed up with external hard dr
 
 # Access and data sharing
 
-There are a few ways that data will be able to be accessed and will be shared. When the associated work is published, it will include some of the data in the supplemental information and will also give a link to a repository that holds the data. The publicly available data will be available in the ISA-Tab standard and will be licensed under CC BY so that anyone can use the data as long as they give credit to the researchers that collected the data. The code used in the published work to process and transform the data will then be published in a GitHub repository. 
+The sharing and use of the data is not restricted by any factors. The data will be licensed under CC BY  so that anyone can use the data as long as they give credit to the researchers that collected the data. Data will be available in the associated paper under supplementary data. The paper will also provide a link to where the data is stored in the [Zenodo](https://zenodo.org/) repository. If there are problems accessing data from the repository or from the supplemental data with the paper, contact information given in the paper can be used to notify the lab of the problem and directly request copies of the data. 
 
-A lab contact email will also be available to request access to data and code directly from the lab in case the previous methods are not available. The lab data and code will be retained based on the archiving and preservation section of this plan.  
+GitHub will be used to publish the code repository of the MATLAB and python scripts, which will also be linked to in the paper. This code repository will also be integrated into the Zenodo repository according to the archiving and preservation section of this plan. 
 
 # Archiving and preservation
 
