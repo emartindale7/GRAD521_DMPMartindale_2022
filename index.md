@@ -22,11 +22,21 @@ The centralized storage of data prevents any data being lost if a researcher wer
 
 # Data standards and metadata
 
-Data for this project is organized using a file naming convention and file structure. Electric field files and video files are collected and saved to project specific folders that are named for the experiment, the date, the cage, and the animals. The individual files follow this same naming convention to ensure they are not misplaced and data is not lost. When the data is to be manually analyzed, the raw files are loaded into a program and the labeled and processed output is saved as a new filetype and named with the same naming convention. The raw and manually processed data can then be input into the software that is being developed for this project and the output will include the same name, but with a signifier appended to the end to denote at what stage of the automatic analysis the output files are from.
+Data and scripts produced under this plan will fall into three different categories.  
 
-Git version control is used to record the different iterations of software developed for this project. A local git repository will be used while the software and analysis tools are still in development, but when the project is finished, this repository will be published along with the information collected. This version control will also be used to record the documentation files that are written to explain the software analysis and describe the necessary metadata.
+- Dataset 1: Original, raw data files. 
 
-There is not currently a metadata standard being used for this project. A current standard that would likely be applicable for this project is the [ISA-Tab](http://isatab.sourceforge.net/docs/ISA-TAB_release-candidate-1_v1.0_24nov08.pdf) standard. This standard guides organization of file structure so that complex information from a specific assay or test can be related back to a study and that study can be related back to the larger investigation.
+  Electric field files and video files are collected and saved to project specific folders that are named for the experiment, the date, the cage, and the animals. The individual files follow the same naming convention and structure to ensure they are not misplaced and data is not lost. Files are stored in a structure of experiment/ experiment_date/ experiment_date_cage_animals with the files being named experiment_date_cage_animals. An example of this would be PVA EXP_01-01-2020_Cage1_AL&AR-0001.abf/ .avi. 
+
+- Dataset 2: Processed data and model outputs. 
+
+  When the data is to be manually analyzed, the raw files are loaded into a either Spike2 for abf files or ELAN for video files and then the labeled and processed output is saved as a new filetype and named with the same naming convention. The raw and manually processed data can then be input into the MATLAB scripts being developed under this project and the output will include the same naming convention with an appended marker to denote the stage of processing that has been done. 
+
+- Dataset 3: Processing and machine learning scripts.
+
+  Metadata for the project code can be found in the [codemate.json](codemeta.json) file which uses the [CodeMeta Project](https://codemeta.github.io/) as a standard to describe the code itself. Git version control is used to record the different iterations of software developed for this project. A local git repository will be used while the software and analysis tools are still in development, but when the project is finished, this repository will be published along with the information collected. This version control will also be used to record the documentation files that are written to explain the software analysis and describe the necessary metadata.
+
+There is no current metadata standard for the field to describe the first two datasets. Metadata on the methods to collect this data is shown in published work by [Kloefkorn et al](https://doi.org/10.1016/j.jneumeth.2020.108834)[^1].
 
 # Storage and security
 
@@ -41,3 +51,7 @@ GitHub will be used to publish the code repository of the MATLAB and python scri
 # Archiving and preservation
 
 The data itself will be preserved with the lab in an archive, as well as preserved in the public repository that it is submitted to. These preservation methods will need to retain the data for at least 5 years. Code for the project associated with the data will be submitted to GitHub, as well as having a local git repository stored in the lab's archive. This will also need to be stored for 5 years. The data repository and GitHub repository will both allow public access and access through request to the lab will be a secondary method of access to archive data and code. 
+
+# References
+
+[^1]: Kloefkorn, H., Aiani, L. M., Lakhani, A., Nagesh, S., Moss, A., Goolsby, W., Rehg, J. M., Pedersen, N. P., & Hochman, S. (2020). Noninvasive three-state sleep-wake staging in mice using electric field sensors. *Journal of Neuroscience Methods*, *344*, 108834. https://doi.org/10.1016/j.jneumeth.2020.108834  
