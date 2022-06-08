@@ -50,7 +50,7 @@ GitHub will be used to publish the code repository of the MATLAB and python scri
 
 # Archiving and preservation
 
-The data itself will be preserved with the lab in an archive, as well as preserved in the public repository that it is submitted to. These preservation methods will need to retain the data for at least 5 years. Code for the project associated with the data will be submitted to GitHub, as well as having a local git repository stored in the lab's archive. This will also need to be stored for 5 years. The data repository and GitHub repository will both allow public access and access through request to the lab will be a secondary method of access to archive data and code. 
+The data for this project and the scripts developed throughout will be archived and preserved in the Zenodo repository. This repository aims to retain data indefinitely and if they cannot, will migrate the dataset and associated files to another repository that can. There will also be copies of the data and scripts retained by the lab for 5 years in the lab's storage location. The MATLAB and python scripts will also maintained in GitHub with new versions to allow more use for different file types and parameters to use. 
 
 # References
 
